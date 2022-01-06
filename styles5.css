@@ -1,0 +1,215 @@
+/* My final CSS style file - refactored */
+
+/* General HTML tags */
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Montserrat-Black, sans-serif;
+  font-weight: 900;
+}
+
+/* General use classes */
+
+.container {
+  padding: 3% 10%;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  font-family: Montserrat-light, sans-serif;
+  font-size: 1.2rem;
+  padding: 0 1.1rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 7%;
+  text-align: left;
+}
+
+#cooldog {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  height: 90%;
+  width: 23%;
+}
+
+/* Features Section */
+
+.features-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+  font-family: Montserrat-light, sans-serif;
+  font-size: 1.2rem;
+}
+
+.fa-check-circle,
+.fa-bullseye,
+.fa-heart {
+  color: #ef8172;
+  font-size: 3.8rem;
+  margin: 16px auto 20px;
+}
+
+.fa-check-circle:hover,
+.fa-bullseye:hover,
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  padding: 80px 0;
+  position: relative;
+}
+
+/* Testimonial Section */
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-item {
+  padding: 7% 14%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 35px 20px 35px;
+}
+
+.press-logo {
+  padding: 1rem 1rem 1rem;
+  width: 12.5rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 4rem;
+}
+
+/* Pricing Section */
+
+.pricing-heading,
+.price {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.card-pricing {
+  padding: 4rem 1rem;
+}
+
+.dog-brand {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 7% 5%;
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 10% 17%;
+}
+
+/* Footer Section */
+
+.footer-paragraph {
+  color: #8f8f8f;
+  font-family: Montserrat-light, sans-serif;
+  font-size: 1rem;
+}
+
+.icon {
+  padding: 0 0.6rem 1.5rem;
+}
+
+#footer {
+  padding: 8% 17%;
+}
+
+/* Media Section */
+
+@media (max-width: 995px) {
+  .container {
+    padding-bottom: 0;
+  }
+
+  .navbar-title {
+    text-align: left;
+  }
+
+  #title {
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  #cooldog {
+    padding-top: 9%;
+    position: static;
+    transform: rotate(0);
+    height: 80%;
+    width: 70%;
+  }
+}
+
+/*
+
+  Nota
+
+  Importante preservar duas coisas fundamentais no código: legidibilidade(o quão legível é seu código)
+   e modularidade( o quão desacoplado ele é)
+
+   Da próxima vez lembrar de implementar mais a classe container
+
+   Poupar o uso de ids para apenas seções
+
+
+  */
